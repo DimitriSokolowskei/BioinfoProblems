@@ -1,3 +1,4 @@
+# Change the nt sequence as you wish
 final = []
 seq = 'TATTAACCGGGTTTAAACTAGCATGCATGATTAACCAGTACATCTTTT'
 for i in seq:
@@ -16,4 +17,4 @@ seq_compl = ''
 
 for i in final:
     seq_compl += i
-print('The reverse complementary sequence is: {}'.format(seq_compl))
+print(f'The reverse complementary sequence is: {seq_compl}')
