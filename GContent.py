@@ -1,5 +1,6 @@
+# Change the nt sequence as you wish.
 sum = 0
-seq = 'XXXXXXXXXXXXXXXXXXXX'
+seq = 'ATGCATGCTTTTTGATCGATC'
 seq = list(seq)
 for i in seq:
     if i == 'C':
@@ -7,4 +8,5 @@ for i in seq:
     elif i == 'G':
         sum += 1
 
-print('The GC content is {:.2f}.'.format((sum / len(seq)) * 100)
+calc = ((sum / len(seq)) * 100)
+print(f'The GC content is {calc}.')
