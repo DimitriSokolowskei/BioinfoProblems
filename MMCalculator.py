@@ -6,11 +6,11 @@ tabela = {'A':71.03711, 'C':103.00919, 'D':115.02694, 'E':129.04259, 'F':147.068
 
 seq = 'VRSSSRTPSDKPVAHVVANPQAEGQLQWLNRRANALLANGVELRDNQLVVPSEGLYLIYSQVLFKGQGCPSTHVLLTHTISRIAVSYQTKVNLLSAIKSPCQRETPEGAEAKPWYEPIYLGGVFQLEKGDRLSAEINRPDYLLFAESGQVYFGIIAL'
 
-massa = []
+mass = []
 for i in seq:
-    if i in tabela:
-        massa.append(tabela[i])
+    if i in table:
+        mass.append(table[i])
 
-mm = sum(massa) 
-print(f'A massa molar da sequência de aminoácidos é {mm}')
+mm = sum(mass) 
+print(f'The molar mass of the sequence is {mm}')
 
